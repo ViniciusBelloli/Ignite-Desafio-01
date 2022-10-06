@@ -1,0 +1,69 @@
+.taskList {
+    background: var(--gray-500);
+    color: var(--gray-100);
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    padding: 1rem 1rem;
+}
+
+.taskList p {
+    /* padding: 1rem 1rem; */
+    flex: 1;
+    line-height: 1.4;
+    font-size: 14px;
+    /* margin-left: 0.75rem; */
+    max-width: 90%;
+}
+
+.trashIcon {
+    color: var(--gray-300);
+
+    transition: color 0.1s;
+}
+
+.trashIcon:hover {
+    color: var(--red-500);
+}
+
+.circleIcon {
+    color: var(--blue-300);
+    width: 24px;
+    max-width: 24px;
+
+    transition: color 0.1s;
+}
+
+.circleIcon:hover {
+    width: 24px;
+    max-width: 24px;
+
+    color: var(--blue-500);
+}
+
+.checkCircleIcon {
+    font-weight: bold;
+    color: var(--purple-500);
+
+    transition: color 0.1s;
+}
+
+.checkCircleIcon:hover {
+    color: var(--purple-300);
+}
+
+.taskChecked {
+    color: var(--gray-300);
+    line-height: 1.4;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.taskUnchecked {
+    color: var(--gray-100);
+    line-height: 1.4;
+    font-size: 14px;
+    text-decoration: none;
+}
